@@ -1,11 +1,12 @@
 #!/bin/bash
 
 << readme
+This is for Linux OS.
 This is script for backup with 5 day rotation.
-Use 'crontab -e' command for scheduling
+Use 'crontab -e' command for scheduling.
 
 usage: 
-./backup.sh <path to ur source> <path to backup folder>
+./backup.sh <path/to/ur/source> <path/to/backup/folder>
 
 source: the directory u want to backup.
 backup folder: the directory where backups will be stored.
