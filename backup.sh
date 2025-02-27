@@ -45,6 +45,7 @@ function create_backup {
 
 function perform_rotation {
 
+# arr_name=(..):- this is the syntax for array.
 # backups=(...): The result of the ls -t command is captured and stored in the backups array.
 # Each file listed by the ls command becomes an element in the backups array.
 # 2>/dev/null redirects any error output (such as "no files found") to /dev/null
